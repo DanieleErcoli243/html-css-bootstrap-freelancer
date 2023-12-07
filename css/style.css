@@ -1,21 +1,26 @@
 .container-fluid{
-    background-color: rgb(73, 73, 243);
+    
     min-height: 80px;
     border: 2px dashed orange;
 }
 
 .col-6{
-    background-color: orange;
+    
     border: 2px dashed blue;
 }
 
 .jumbotron{
     min-height: 400px;
-    background-color: aquamarine;
+    
     border: 2px dashed magenta;
+}
+
+.col-1{
+    width: 100%;
 }
 
 .container{
     border: 2px dashed black;
     height: 400px;
 }
+
