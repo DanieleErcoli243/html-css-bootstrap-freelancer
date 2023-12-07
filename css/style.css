@@ -6,9 +6,16 @@ header.container-fluid{
     height: 80px;
 }
 
+
+
 .jumbotron{
     height: 300px
 }
+
+.container-fluid{
+    height: 300px;
+}
+
 
 .col-12{
     height: 100%;
