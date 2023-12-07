@@ -29,3 +29,18 @@ section.container{
 
 }
 
+footer{
+    min-height: 300px;
+}
+
+footer:first-child{
+    flex-basis: 200px;
+    flex-grow: 1;
+
+}
+
+footer:last-child{
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+
