@@ -1,29 +1,86 @@
-*{
-    border: 2px dashed black;
+
+/* utili */
+
+.m-20{
+    margin: -20px 0;
 }
 
-header.container-fluid{
+.mb{
+    margin-bottom: 30px;
+}
+
+.btn{
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+/* intestazione con barra di navigazione */
+
+header{
     height: 80px;
+    background-color: rgb(66, 66, 110);
+}
+
+a{
+    color: white;
+}
+
+span.navbar-toggle-icon{
+    color: lightgray;
+    border: 1px solid white;
+}
+
+a.nav-link{
+    color: white;
 }
 
 
+/* jumbotron */
 
 .jumbotron{
-    height: 300px
+    background-color: rgb(99 211 170);
+    color: white;
+    margin-bottom: 20px;
 }
 
-.container-fluid{
-    height: 300px;
+img.avatar{
+    margin: 20px 0;
+    width: 200px;
+}
+
+.subtitle{
+    margin-bottom: 20px;
 }
 
 
 .col-12{
-    height: 100%;
+    padding: 20px 0;
 }
 
-section.container{
-    height: 400px;
+/* immagini */
+
+section img{
+    max-width: 100%;
+    border-radius: 10px;
 }
+
+/* paragrafi */
+
+.about{
+    background-color: rgb(89, 185, 153);
+    padding: 30px 105px;
+    color: white;
+}
+
+.about p{
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
 
 footer{
     height: 400px;
