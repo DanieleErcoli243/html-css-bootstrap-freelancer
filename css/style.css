@@ -1,8 +1,12 @@
 
 /* utili */
 
+.col-12{
+    padding: 10px;
+}
+
 .m-20{
-    margin: -20px 0;
+    margin: -10px;
 }
 
 .mb{
@@ -15,6 +19,10 @@
     background-color: transparent;
     padding: 10px 15px;
     border-radius: 10px;
+}
+
+.row.bg{
+    background-color: #303d4e
 }
 
 /* intestazione con barra di navigazione */
@@ -51,14 +59,21 @@ img.avatar{
     width: 200px;
 }
 
-.subtitle{
+h1{
     margin-bottom: 20px;
 }
 
-
-.col-12{
-    padding: 20px 0;
+.jumbotron hr{
+    border: 2px solid white;
+    max-width: 250px;
+    margin: 0 auto;
 }
+
+.subtitle{
+    margin: 20px 0;
+    font-size: 16px;
+}
+
 
 /* immagini */
 
@@ -81,11 +96,29 @@ section img{
     font-size: 16px;
 }
 
+/* modulo */
 
-footer{
-    height: 400px;
+.form-section{
+    margin: 20px 0;
 }
 
-footer .row{
-    height: 400px;
+.text-start{
+    background-color: rgb(2, 181, 104);
+    padding: 10px 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    color: white;
+    border: 0;
+}    
+
+/* pie' di pagina */
+
+footer{
+    min-height: 400px;
+    background-color: #42566e;
+    color: white;
+}
+
+footer ul{
+    list-style-type: none;
 }
