@@ -25,6 +25,33 @@
     background-color: #303d4e
 }
 
+/* divisore con stella */
+
+.divider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider::before,
+.divider::after{
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 2px;
+    background-color: white;
+    margin: 0 10px;
+}
+
+.divider.dark{
+    color: black;
+}
+
+.divider.dark::before,
+.divider.dark::after{
+    background-color: black;
+}
+
 /* intestazione con barra di navigazione */
 
 header{
@@ -71,13 +98,7 @@ h1{
     font-size: 24px;
 }
 
-.fa-star::before{
-    border: 2px solid white;
-}
 
-.fa-star::after{
-    border: 2px solid white;
-}
 
 .subtitle{
     margin: 20px 0;
@@ -110,6 +131,18 @@ section img{
 
 .form-section{
     margin: 20px 0;
+    
+}
+
+.form-section .form-control{
+    border-width: 0 0 1px 0;
+    padding-left: 0;
+    border-radius: 0;
+
+}
+
+.form-section .form-control::placeholder{
+    color: rgb(33, 37, 41);
 }
 
 .text-start{
@@ -130,16 +163,30 @@ footer{
 
 footer ul{
     list-style-type: none;
+    padding-left: 0;
 }
 
 footer li{
-    height: 35px;
-    width: 35px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     border: 1px solid white;
-    padding: 5px 0;
+    padding: 10px 0;
+}
+
+.footer-bottom{
+    background-color: #303e4f;
 }
 
 .about-p{
     font-size: 20px;
+}
+
+@media screen and (min-width: 768px){
+    .divider::before,
+    .divider::after{
+        width: 100px;
+        
+        margin: 0 20px;
+}
 }
