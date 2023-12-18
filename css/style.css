@@ -28,12 +28,16 @@
 /* intestazione con barra di navigazione */
 
 header{
-    height: 80px;
     background-color: rgb(66, 66, 110);
 }
 
 a{
     color: white;
+}
+
+nav.navbar{
+    display: flex;
+    justify-content: space-between;
 }
 
 span.navbar-toggle-icon{
@@ -63,10 +67,16 @@ h1{
     margin-bottom: 20px;
 }
 
-.jumbotron hr{
+.fa-star{
+    font-size: 24px;
+}
+
+.fa-star::before{
     border: 2px solid white;
-    max-width: 250px;
-    margin: 0 auto;
+}
+
+.fa-star::after{
+    border: 2px solid white;
 }
 
 .subtitle{
@@ -114,11 +124,22 @@ section img{
 /* pie' di pagina */
 
 footer{
-    min-height: 400px;
     background-color: #42566e;
     color: white;
 }
 
 footer ul{
     list-style-type: none;
+}
+
+footer li{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 5px 0;
+}
+
+.about-p{
+    font-size: 20px;
 }
