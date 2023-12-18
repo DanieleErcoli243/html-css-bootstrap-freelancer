@@ -12,69 +12,78 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="container-fluid">
-        <nav lang="en" class="navbar h100 navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">START BOOTSTRAP</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon text-light"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
-                  <a class="nav-link" href="#">ABOUT</a>
-                  <a class="nav-link" href="#">CONTACT</a>
-                  
-                </div>
-              </div>
-            </div>
-          </nav>
-    </header>
-
-    <div class="jumbotron container-fluid d-md-flex justify-content-md-center">
-        <div class="row justify-content-center">
-            <div class="col-12 h100 text-center">
-                <img class="avatar" src="img/avatar.svg" alt="avatar di un utente">
-                <h1 lang="en">START BOOTSTRAP</h1>
-                <hr>
-                <h4 lang="en" class="subtitle">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h4>
-            </div>
+  <header>
+    <div class="container">
+      <nav lang="en" class="navbar navbar-expand-lg bg-body-tertiary fw-bold py-4" data-bs-theme="light">
+        <div>
+          <a class="navbar-brand" href="#">START BOOTSTRAP</a>
         </div>
+        <div class="text-end"> 
+          <button class="navbar-toggler text-light border border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+              <a class="nav-link" href="#">ABOUT</a>
+              <a class="nav-link" href="#">CONTACT</a>
+            </div>
+          </div>
+        </div>
+      </nav>
     </div>
+  </header>
 
-    <section class="mb container container-md">
-        <div class="row m-20">
-            <div class="col-12 col-md-6 col-lg-4 h100">
-                <img src="img/cabin.png" alt="capanna di legno">
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 h100">
-                <img src="img/cake.png" alt="fetta di torta">
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 h100">
-                <img src="img/circus.png" alt="tendone da circo">
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 h100">
-                <img src="img/game.png" alt="controller">
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 h100">
-                <img src="img/safe.png" alt="cassaforte">
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 h100">
-                <img src="img/submarine.png" alt="sottomarino">
-            </div>
-        </div>
-    </section>
+  <div class="jumbotron container-fluid d-md-flex justify-content-md-center">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <img class="avatar" src="img/avatar.svg" alt="avatar di un utente">
+        <h1 lang="en">START BOOTSTRAP</h1>
+        <i class="fa-solid fa-star text-light"></i>
+        <h4 lang="en" class="subtitle">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h4>
+      </div>
+    </div>
+  </div>
+  <section class="mb container container-md">
+    <div class="row text-center">
+      <div class="col-12">
+        <h2>PORTFOLIO</h2>
+        <i class="fa-solid fa-star text-dark my-3"></i>
+      </div>
+    </div>
+    <div class="row m-20">
+      <div class="col-12 col-md-6 col-lg-4 h100">
+        <img src="img/cabin.png" alt="capanna di legno">
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 h100">
+        <img src="img/cake.png" alt="fetta di torta">
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 h100">
+        <img src="img/circus.png" alt="tendone da circo">
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 h100">
+        <img src="img/game.png" alt="controller">
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 h100">
+        <img src="img/safe.png" alt="cassaforte">
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 h100">
+        <img src="img/submarine.png" alt="sottomarino">
+      </div>
+    </div>
+  </section>
 
     <section class="about text-center container-fluid">
         <div class="row">
-            <h2>ABOUT</h2>
+          <h2>ABOUT</h2>
+          <i class="fa-solid fa-star text-light my-3"></i>
         </div>
-        <hr>
-        <div class="row">
-            <div class="col-10 col-md-4">
+        
+        <div class="row text-center justify-content-md-center fw-bold">
+            <div class="offset col-10 col-md-4">
                 <p lang="en">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as adoptional LESS stylesheets for easy customization. </p>
             </div>
-            <div class="col-10 col-md-4">
+            <div class="offset col-10 offset-md-0 col-md-4">
                 <p lang="en">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
             </div>
         </div>
@@ -142,38 +151,38 @@
             </div>
             <div class="col-11 col-md-4 h100">
               <h3>AROUND THE WEB</h3>
-              <ul class="d-flex justify-content-between">
+              <ul class="d-flex justify-content-evenly">
                 <li>
                   <a href="#">
-                    <i class=""></i>
+                    <i class="fa-brands fa-facebook-f text-light"></i>
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <i></i>
+                    <i class="fa-brands fa-google-plus-g text-light"></i>
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <i></i>
+                    <i class="fa-brands fa-twitter text-light"></i>
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <i></i>
+                    <i class="fa-brands fa-linkedin-in text-light"></i>
                   </a>
                 </li>
               </ul>
             </div>
-            <div class="col-11 col-md-4 h100">
+            <div class="col-11 col-md-4">
               <h3>ABOUT FREELANCER</h3>
-              <p>Freelance is a free tu use, open source Bootstrap theme create by <span>Start Bootstrap.</span></p>
+              <p class="about-p">Freelance is a free tu use, open source Bootstrap theme create by <span class="text-success">Start Bootstrap.</span></p>
             </div>
         </div>
         <div class="row bg">
-            <div class="col-11 h100">
+            <div class="col-11 text-center">
               <p>
-                Copyright <i></i> Your Website 2019
+                Copyright <i class="fa-regular fa-copyright text-light my-4"></i> Your Website 2019
               </p>
             </div>
         </div>
