@@ -1,3 +1,9 @@
+Bootstrap Freelancer
+This was our first approach with Bootstrap. The first step was to create the main layout by using bootstrap classes and grids and focusing on the responsiveness. Then we had to fill it with the pictures we were given and with the texts copied from references.
+I needed a while to get used to the framework, there was something I didn't figure out, but I did it.  
+
+
+
 Ciao Ragazzi,
  esercizio di oggi: Bootstrap Freelancer
 nome repo: html-css-bootstrap-freelancer
